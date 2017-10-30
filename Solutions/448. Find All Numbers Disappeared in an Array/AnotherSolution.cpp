@@ -2,7 +2,7 @@
 The idea is to put(do some swap!) values that appears in the array in the corresponding 
 positions(which is value-1), and then iterate through the array again and if the 
 value doesn't match the index(EX:the value for index 2 should be 3), then index+1 didn't appear. 
-Push it into the vector.
+Push it into vector.
 */
 class Solution {
 public:
