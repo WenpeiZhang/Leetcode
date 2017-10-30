@@ -8,7 +8,7 @@ int* findDisappearedNumbers(int* nums, int numsSize, int* returnSize) {
     int flag;
     for(int i = 1;i<=numsSize;i++){
          flag=0;
-        for(int j = 0;j<numsSize;j++)//针对每个数，遍历一遍数组，看有没有这个数
+        for(int j = 0;j<numsSize;j++)//iterate through the array to see if the value is in there
         {
             if(nums[j]==i)
                 flag=1;
