@@ -36,8 +36,8 @@ public class Solution {
         int maxprofit = 0;
         for (int i = 0; i < prices.length; i++) {
             if (prices[i] < minprice)
-                minprice = prices[i];
-            else if (prices[i] - minprice > maxprofit)
+                minprice = prices[i];//minprice so far, namely the smallest valley so far 
+            else if (prices[i] - minprice > maxprofit)//find the largest peak following the smallest valley
                 maxprofit = prices[i] - minprice;
         }
         return maxprofit;
