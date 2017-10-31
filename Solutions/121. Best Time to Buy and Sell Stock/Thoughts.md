@@ -9,10 +9,12 @@ array:
 
 coordinate:
 `1  2  3  4  5  6  7`
-`--+2-->--+2->`
-        ` <--1`
-        ` ---+3---->`
-`-------+6--------->`
+```
+ --+2-->--+2->
+          <--1
+          ---+3---->
+ -------+6--------->
+```
 
 
 It might sound confusing at first sight, but this is the core of the problem:
