@@ -17,6 +17,6 @@ coordinate:
 ```
 
 
-It might sound confusing at first sight, but this is the core of the problem:
+It might seem confusing at first sight, but this is the core of the problem:
 Finding max(prices[j]-prices[i]) such that j > i.
 
